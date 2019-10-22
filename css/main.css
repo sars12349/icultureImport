@@ -1,10 +1,10 @@
-body{
-    background-image: url(image/i01.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    background-size: cover;	
+.bgmedia{
+  background-image: url(../image/i01.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;	
 }
 .wow{
   border-radius: 0;
@@ -23,6 +23,7 @@ body{
     font-size: 30px;
     font-weight: bold;
 }
+
 @media screen and (max-width: 576px) {
     .hometext{
         width: 100%;
@@ -31,10 +32,6 @@ body{
         top: 170px;
     }  		
 }    	  
-
-
-
-
 
 .navbar-default {
     background-color: #8bcaec;
